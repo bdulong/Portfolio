@@ -1,0 +1,67 @@
+@font-face {
+    font-family: Quando-Regular;
+    src: url(fonts/Quando-Regular.ttf);
+}
+
+@font-face {
+    font-family: RobotoMono;
+    src: url(fonts/RobotoMono-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family:NimbusSansL-Regular;
+    src: url(fonts/NimbusSanL-Reg.otf);
+}
+
+@font-face {
+    font-family:NimbusSansL-Bold;
+    src: url(fonts/NimbusSanL-Bol.otf);
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    margin: 0px 68px;
+    position: fixed;
+    width: calc(100% - 136px);
+    z-index: 1;
+}
+
+a.header__link {
+    text-decoration: none;
+    font-family: NimbusSansL-Regular;
+    font-size: 24px;
+    color: white;
+    line-height: 28px;
+}
+
+hr {
+    border: 0;
+    border-top-width: 4px;
+    border-top-style: solid;
+    margin: 0;
+    color: white;
+}
+
+nav {
+    margin: 24px 0 24px 0;
+}
+
+a.header__link:nth-child(1) {
+    margin: 0 6.111vw 0 46.667vw;
+}
+
+a.header__link:nth-child(2) {
+    margin: 0 6.111vw 0 0;
+}
+
+a.header__link:nth-child(3) {
+    margin: 0 3.681vw 0 0;
+}
+
+section.section__haut {
+    background-color: #0A2463;
+    height: 1024px;
+}
