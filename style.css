@@ -25,7 +25,8 @@ body {
 header {
     position: fixed;
     width: 100%;
-    z-index: 1;
+    z-index: 2;
+    background-color: #0A2463;
 }
 
 nav {
@@ -70,17 +71,55 @@ section.section__haut {
     height: 1104px;
 }
 
+div.title__container {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+div.next-section__button {
+    z-index: 1;
+    background-color: #0A2463;
+}
+
+hr.next__link__separator {
+    border: 0;
+    border-top-width: 4px;
+    border-top-style: solid;
+    margin: 0;
+    color: white;
+    margin: 0 68px;
+}
+
+div.next__link__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 24px 0;
+}
+
+a.next__link {
+    text-decoration: none;
+    font-family: NimbusSansL-Regular;
+    font-size: 24px;
+    color: white;
+    line-height: 28px;
+}
+
 section.section__a-propos {
     background-color: rebeccapurple;
-    height: 1024px;
+    height: 1104px;
+    
 }
 
 section.section__projets {
     background-color: yellow;
-    height: 1024px;
+    height: 1104px;
 }
 
 section.section__contact {
     background-color: green;
-    height: 1024px;
+    height: 1104px;
 }
