@@ -25,8 +25,13 @@ body {
 header {
     position: fixed;
     width: 100%;
-    z-index: 2;
+    z-index: 99;
     background-color: #0A2463;
+    transition: background-color 0.3s ease;
+}
+
+header.transparent {
+    background-color: transparent;
 }
 
 nav {
@@ -79,39 +84,18 @@ div.title__container {
     overflow: hidden;
 }
 
-div.next-section__button {
-    z-index: 1;
-    background-color: #0A2463;
-}
-
-hr.next__link__separator {
-    border: 0;
-    border-top-width: 4px;
-    border-top-style: solid;
-    margin: 0;
-    color: white;
-    margin: 0 68px;
-}
-
-div.next__link__container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 24px 0;
-}
-
-a.next__link {
-    text-decoration: none;
-    font-family: NimbusSansL-Regular;
-    font-size: 24px;
-    color: white;
-    line-height: 28px;
+div.title__container img {
+    margin: 40px 0 40px 0;
 }
 
 section.section__a-propos {
-    background-color: rebeccapurple;
+    background-color: white;
     height: 1104px;
     
+}
+
+div.a-propos__title {
+    padding: 92px 0 0 180px;
 }
 
 section.section__projets {
