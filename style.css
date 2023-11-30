@@ -58,9 +58,9 @@ a.header__link:nth-child(2) {
     margin-right: 88px; 
 }
 
-a.header__link:hover {
+/* a.header__link:hover {
     color: #2B92DC;
-}
+} */
 
 hr {
     border: 0;
@@ -73,7 +73,7 @@ hr {
 
 section.section__haut {
     background-color: #0A2463;
-    height: 1104px;
+    height: 1024px;
 }
 
 div.title__container {
@@ -90,8 +90,7 @@ div.title__container img {
 
 section.section__a-propos {
     background-color: white;
-    height: 1104px;
-    
+    height: 1024px;
 }
 
 div.a-propos__title {
@@ -100,10 +99,10 @@ div.a-propos__title {
 
 section.section__projets {
     background-color: yellow;
-    height: 1104px;
+    height: 1024px;
 }
 
 section.section__contact {
     background-color: green;
-    height: 1104px;
+    height: 1024px;
 }
