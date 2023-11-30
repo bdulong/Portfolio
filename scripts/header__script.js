@@ -31,4 +31,16 @@ $(document).ready(function() {
         }
       }
     );
-  });
+
+    // Ajouter un gestionnaire d'événements pour le clic sur les sections
+    headerLink.on("click", function(event) {
+        event.preventDefault(); // Empêcher le comportement par défaut du lien
+
+        var targetSection = $($(this).attr("href"));
+        
+        // Ajouter une classe pour appliquer la transition
+        $("html, body").animate({
+        scrollTop: targetSection.offset().top
+        }, 300); // Vous pouvez ajuster la vitesse de la transition ici
+    });
+});

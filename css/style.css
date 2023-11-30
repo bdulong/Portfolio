@@ -1,21 +1,21 @@
 @font-face {
     font-family: Quando-Regular;
-    src: url(fonts/Quando-Regular.ttf);
+    src: url(../fonts/Quando-Regular.ttf);
 }
 
 @font-face {
     font-family: RobotoMono;
-    src: url(fonts/RobotoMono-VariableFont_wght.ttf);
+    src: url(../fonts/RobotoMono-VariableFont_wght.ttf);
 }
 
 @font-face {
     font-family:NimbusSansL-Regular;
-    src: url(fonts/NimbusSanL-Reg.otf);
+    src: url(../fonts/NimbusSanL-Reg.otf);
 }
 
 @font-face {
     font-family:NimbusSansL-Bold;
-    src: url(fonts/NimbusSanL-Bol.otf);
+    src: url(../fonts/NimbusSanL-Bol.otf);
 }
 
 body {
@@ -57,10 +57,6 @@ a.header__link:nth-child(1) {
 a.header__link:nth-child(2) {
     margin-right: 88px; 
 }
-
-/* a.header__link:hover {
-    color: #2B92DC;
-} */
 
 hr {
     border: 0;
