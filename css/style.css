@@ -68,6 +68,7 @@ hr {
 }
 
 section.section__haut {
+    overflow: hidden;
     background-color: #0A2463;
     height: 1024px;
 }
@@ -80,9 +81,9 @@ div.title__container {
     overflow: hidden;
 }
 
-div.title__container img {
+/* div.title__container img {
     margin: 40px 0 40px 0;
-}
+} */
 
 section.section__a-propos {
     background-color: white;
@@ -90,7 +91,7 @@ section.section__a-propos {
 }
 
 div.a-propos__title {
-    padding: 92px 0 0 180px;
+    padding: 80px 0 0 180px;
 }
 
 section.section__projets {
