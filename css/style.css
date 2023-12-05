@@ -58,11 +58,6 @@ a.header__link:nth-child(2) {
     margin-right: 88px; 
 }
 
-strong {
-    font-size: 32px;
-    line-height: 31px;
-}
-
 b {
     font-weight: 700;
     line-height: 31px;
@@ -96,7 +91,7 @@ section.section__a-propos {
     height: 1024px;
 }
 
-.ultime {
+.section__a-propos__container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -134,10 +129,7 @@ section.section__a-propos {
     font-size: 26px;
     line-height: 31px;
     max-width: 376px;
-    min-width: 376px;
-    background: linear-gradient(transparent 5px, #BAD9B5 4px);
-    display: inline-block;
-}
+    min-width: 376px;}
 
 .texte-ombre:nth-child(1),
 .texte-ombre:nth-child(2) {
@@ -170,11 +162,18 @@ div.a-propos__title {
 }
 
 section.section__projets {
-    background-color: yellow;
+    background-color: black;
     height: 1024px;
 }
 
+.projets__title {
+    padding: 120px 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 section.section__contact {
-    background-color: green;
+    background-color: white;
     height: 1024px;
 }
