@@ -35,7 +35,7 @@ header.transparent {
 }
 
 nav {
-    margin: 24px 68px 24px 68px;
+    margin: 14px 68px 14px 68px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -69,7 +69,7 @@ hr {
     border-top-style: solid;
     margin: 0;
     color: white;
-    margin: 76px 0 0 0;
+    margin: 56px 0 0 0;
 }
 
 section.section__haut {
