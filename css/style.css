@@ -42,6 +42,11 @@ nav {
     float: right;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 a.header__link {
     text-decoration: none;
     font-family: NimbusSansL-Regular;
@@ -72,6 +77,22 @@ hr {
     margin: 56px 0 0 0;
 }
 
+li {
+    font-family: RobotoMono;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #898989;
+}
+
+span {
+    color: #358CD6;
+    font-family: RobotoMono;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+}
+
 section.section__haut {
     overflow: hidden;
     background-color: #0A2463;
@@ -84,6 +105,13 @@ div.title__container {
     justify-content: center;
     align-items: center;
     overflow: hidden;
+}
+
+.projets__title {
+    padding: 100px 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 section.section__a-propos {
@@ -146,31 +174,85 @@ section.section__a-propos {
 .rectangle2 {
     margin: 0 0 0 0;
     width: 16px;
-    height: 780px;
+    height: 800px;
     background-color: #0A2463;
 }
 
 .rectangle3 {
     margin: 274px 0 0 0;
     width: 16px;
-    height: 506px;
+    height: 526px;
     background-color: #0A2463;
 }
 
 div.a-propos__title {
-    padding: 120px 456px 0 0;
+    padding: 100px 456px 0 0;
 }
 
 section.section__projets {
     background-color: black;
     height: 1024px;
+    overflow: hidden;
 }
 
-.projets__title {
-    padding: 120px 0 0 0;
+.content__container__projets {
+    display: flex;
+}
+
+.number {
+    margin: 40px 0 0 68px;
+}
+
+.content__projets {
+    margin: 40px 68px 0 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.projets {
+    margin: 0 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.title__arrow {
     display: flex;
     align-items: center;
-    justify-content: center;
+}
+
+.title__arrow > :first-child {
+    margin-right: 20px;
+}
+
+.sites {
+    margin: 0 0 0 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.name__projets {
+    color: white;
+    margin: 0 0 0 160px;
+}
+
+.bracket {
+    margin: 0 0 0 34px;
+}
+
+.color__a {
+    color: red;
+}
+
+.color__href {
+    color: orange;
 }
 
 section.section__contact {
