@@ -86,7 +86,7 @@ li {
 }
 
 span {
-    color: #358CD6;
+    color: #0CF25D;
     font-family: RobotoMono;
     font-size: 24px;
     line-height: 32px;
@@ -243,16 +243,25 @@ section.section__projets {
     margin: 0 0 0 160px;
 }
 
+.hover__name__projets {
+    color: white;
+}
+
+.hover__name__projets:hover {
+    color: #2B92DC;
+}
+
+.bracket__title {
+    color: white;
+}
+
 .bracket {
     margin: 0 0 0 34px;
+    color: white;
 }
 
-.color__a {
-    color: red;
-}
-
-.color__href {
-    color: orange;
+.color__text__decoration {
+    color: #444444;
 }
 
 section.section__contact {
