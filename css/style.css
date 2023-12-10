@@ -276,7 +276,7 @@ section.section__contact {
     margin: 40px 40px 0 40px;
 }
 
-.column__contact :nth-child(-n+2) {
+.column__contact :not(.link__a):nth-child(-n+2) {
     margin-bottom: 10px;
 }
 
@@ -289,9 +289,10 @@ section.section__contact {
     display: flex;
     justify-content: left;
     flex-direction: row;
+    align-items: center;
 }
 
-.contact__content :first-child {
+.contact__content :not(.link__a):first-child {
     margin-right: 20px;
 }
 
@@ -299,6 +300,7 @@ section.section__contact {
     font-family: NimbusSansL-Regular;
     font-size: 26px;
     line-height: 31px;
+    color: black;
 }
 
 .rectangle4 {
@@ -320,4 +322,9 @@ section.section__contact {
     width: 83px;
     height: 16px;
     background-color: #0A2463;
+}
+
+.link__a {
+    display: flex;
+    align-items: center;
 }
