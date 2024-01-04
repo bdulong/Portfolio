@@ -341,3 +341,7 @@ section.section__contact {
     display: flex;
     align-items: center;
 }
+
+.link__a:hover p.text__contact {
+    color: #2B92DC;
+}
