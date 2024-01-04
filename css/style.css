@@ -233,6 +233,10 @@ section.section__projets {
     margin-right: 20px;
 }
 
+.content__projets .projets .title__arrow svg {
+    transition: transform 0.1s ease-in-out;
+}
+
 .sites {
     margin: 0 0 0 160px;
     display: flex;
