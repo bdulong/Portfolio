@@ -218,6 +218,15 @@ section.section__projets {
 .title__arrow {
     display: flex;
     align-items: center;
+    cursor: pointer;
+}
+
+.title__arrow:hover span {
+    color: #2B92DC;
+}
+
+.title__arrow:hover span.bracket__title {
+    color: white;
 }
 
 .title__arrow > :first-child {
@@ -238,12 +247,12 @@ section.section__projets {
     margin: 0 0 0 160px;
 }
 
-.hover__name__projets {
-    color: white;
+.name__projets:hover span.hover__name__projets {
+    color: #2B92DC;
 }
 
-.hover__name__projets:hover {
-    color: #2B92DC;
+.hover__name__projets {
+    color: white;
 }
 
 .bracket__title {
