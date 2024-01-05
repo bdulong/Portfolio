@@ -16,7 +16,8 @@
         <link rel="stylesheet" href="css/style.css">
         <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
         <script src="scripts/header__script.js"></script>
-        <script src="scripts/projets__section__animation.js"></script>    
+        <script src="scripts/projets__section__animation.js"></script>
+        <script src="scripts/preview.js"></script>
 </head>
 <body>
     <header>
@@ -107,7 +108,7 @@
                                 </svg>
                                 <span>Sites&nbsp;&nbsp;&nbsp;&nbsp;<span class="bracket__title">[</span></span>
                             </div>
-                            <span class="name__projets" >
+                            <span class="name__projets" data-preview-image="images/hetic-yearbook-logo.svg" data-preview-text="Hetic Yearbook est un projet de site d'actualité pour l'école HETIC. Ce projet consitait à un site web se basant sur un CMS pour publier des articles rédigés par les étudiants. J'ai pu participté à la création du front du site et également du back avec la création du CMS et de la base de donnée.">
                                 <a href="">
                                     <span class="color__text__decoration">&lt;a href="</span><span class="hover__name__projets">Hetic Yearbook</span><span class="color__text__decoration">"&gt;&lt;/a&gt;&lt;br&gt;</span>
                                 </a>
@@ -121,7 +122,7 @@
                                 </svg>
                                 <span>Applications&nbsp;&nbsp;&nbsp;&nbsp;<span class="bracket__title">[</span></span>
                             </div>
-                            <span class="name__projets" >
+                            <span class="name__projets" data-preview-image="images/art11-logo.svg" data-preview-text="Texte de prévisualisation 2">
                                 <a href="">
                                     <span class="color__text__decoration">&lt;a href="</span><span class="hover__name__projets">Article11</span><span class="color__text__decoration">"&gt;&lt;/a&gt;&lt;br&gt;</span>
                                 </a>
@@ -182,5 +183,10 @@
             </div>
         </div>
     </section>
+
+    <div class="preview" style="display: none; position: absolute;">
+        <img class="preview-image" src="">
+        <p class="preview-text"></p>
+    </div>
 </body>
 </html>
