@@ -2,6 +2,34 @@
     margin-bottom: 20px;
 }
 
-.colomn__container {
-    margin-left: 105px;
+.colomn__container-yearbook {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 40px 0 105px;
+}
+
+.colomn__container-hackathon {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 120px 0 80px;
+}
+
+.colomn__container-simulation {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 210px 0 183px;
+}
+
+.texte-ombre-offre {
+    font-family: NimbusSansL-Regular;
+    color: #0A2463;
+    font-size: 26px;
+    line-height: 31px;
+    max-width: 376px;
+    min-width: 376px;
+}
+
+.texte-ombre-offre:nth-child(1),
+.texte-ombre-offre:nth-child(2) {
+    margin-bottom: 20px;
 }
